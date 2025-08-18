@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54fd495-efff-4723-9392-cd658a252eb8" name="Changes" comment="interviewQ addedm">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="c54fd495-efff-4723-9392-cd658a252eb8" name="Changes" comment="clean code">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/oops/Abstraction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/oops/Inheritance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AlphanumericaString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/AlphanumericaString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Anagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Anagram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Array_taget.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Array_taget.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConatainDuplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ConatainDuplicate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgramAccurance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgramAccurance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ReversedStrinf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ReversedStrinf.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ZerosatEnd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ZerosatEnd.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,24 +50,35 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\Kotlin Practice\kotlin_programs\src\main\kotlin" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Kotlin Practice\kotlin_programs\src\main\kotlin" />
+      <recent name="H:\Kotlin Practice\kotlin_programs\src\main\kotlin\rahul" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinProgramAccuranceKt">
-    <configuration name="AlphanumericaStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.swapnesh.myapplication.neetcode.AlphanumericaStringKt" />
+  <component name="RunManager" selected="Kotlin.AbstractionKt">
+    <configuration name="AbstractionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rahul.oops.AbstractionKt" />
       <module name="kotlin_programs.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.swapnesh.myapplication.neetcode.AnagramKt" />
+    <configuration name="ConatainDuplicateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConatainDuplicateKt" />
       <module name="kotlin_programs.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinProgramAccuranceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgramAccuranceKt" />
+    <configuration name="InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rahul.oops.InheritanceKt" />
+      <module name="kotlin_programs.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeKt" />
       <module name="kotlin_programs.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,9 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KotlinProgramAccuranceKt" />
-        <item itemvalue="Kotlin.AnagramKt" />
-        <item itemvalue="Kotlin.AlphanumericaStringKt" />
+        <item itemvalue="Kotlin.AbstractionKt" />
+        <item itemvalue="Kotlin.InheritanceKt" />
+        <item itemvalue="Kotlin.PracticeKt" />
+        <item itemvalue="Kotlin.ConatainDuplicateKt" />
         <item itemvalue="Kotlin.Program1Kt" />
       </list>
     </recent_temporary>
@@ -117,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1753531723438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clean code">
+      <created>1753785281303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753785281303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="interviewQ added" />
-    <option name="LAST_COMMIT_MESSAGE" value="interviewQ added" />
+    <MESSAGE value="clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
   </component>
 </project>
