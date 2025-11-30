@@ -26,7 +26,7 @@ fun main() {
     //5.Write a function to perform basic string compression using the counts of repeated characters. For example, the string "aabcccccaaa" would become "a2b1c5a3"
 
     println("\n Compress String")
-    println(compressChar("aaabbdddaa"))
+    println(compressChar("aaabbdddaaccc"))
     println("******************************************")
 
 
@@ -102,7 +102,7 @@ fun compressChar(input: String): String {
 
     }
     compress.append(input.last())
-    compress.append(count)
+   compress.append(count)
     return compress.toString()
 }
 
@@ -117,4 +117,11 @@ fun reverseWords(input: String): String {
     var charArray = input.split(" ")
     return charArray.joinToString(" ") { it.reversed() }
 }
+
+fun moveToEnd(numList:List<Int>):List<Int>{
+    val nonZero=numList.filter { it!=0 }.sorted()
+    val zeroList= List<Int>(numList.size-nonZero.size){ 0 }
+    return nonZero+zeroList
+}
+
 

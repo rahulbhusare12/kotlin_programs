@@ -18,8 +18,11 @@ fun main(){
         println("Output: $output")
 
 
-
-
+println(twoSum(intArrayOf(2, 4, 3, 5, 7, 8, -1),7))
+val result=twoSum(intArrayOf(2, 4, 3, 5, 7, 8, -1),7)
+    result.forEach {
+        println(it)
+    }
 
 
 

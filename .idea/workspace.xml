@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54fd495-efff-4723-9392-cd658a252eb8" name="Changes" comment="clean code">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/oops/Abstraction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/oops/Inheritance.kt" afterDir="false" />
+    <list default="true" id="c54fd495-efff-4723-9392-cd658a252eb8" name="Changes" comment="oops added">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/coroutine/Basick.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/inrviewq/CharactorSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/inrviewq/NextGreater.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/stringOperation/stringOperation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/rahul/Program1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/rahul/Program1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/swapnesh/Anagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/swapnesh/Anagram.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/swapnesh/Array_taget.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/swapnesh/Array_taget.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -55,30 +62,30 @@
       <recent name="H:\Kotlin Practice\kotlin_programs\src\main\kotlin\rahul" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AbstractionKt">
-    <configuration name="AbstractionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rahul.oops.AbstractionKt" />
+  <component name="RunManager" selected="Kotlin.NextGreaterKt">
+    <configuration name="AlphanumericaStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlphanumericaStringKt" />
       <module name="kotlin_programs.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConatainDuplicateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConatainDuplicateKt" />
+    <configuration name="Array_tagetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_tagetKt" />
       <module name="kotlin_programs.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rahul.oops.InheritanceKt" />
+    <configuration name="BasickKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rahul.coroutine.BasickKt" />
       <module name="kotlin_programs.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeKt" />
+    <configuration name="NextGreaterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rahul.inrviewq.NextGreaterKt" />
       <module name="kotlin_programs.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AbstractionKt" />
-        <item itemvalue="Kotlin.InheritanceKt" />
-        <item itemvalue="Kotlin.PracticeKt" />
-        <item itemvalue="Kotlin.ConatainDuplicateKt" />
+        <item itemvalue="Kotlin.NextGreaterKt" />
+        <item itemvalue="Kotlin.Array_tagetKt" />
+        <item itemvalue="Kotlin.AlphanumericaStringKt" />
         <item itemvalue="Kotlin.Program1Kt" />
+        <item itemvalue="Kotlin.BasickKt" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1753785281303</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oops added">
+      <created>1755518980158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755518980158</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +163,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="interviewQ added" />
     <MESSAGE value="clean code" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
+    <MESSAGE value="oops added" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops added" />
   </component>
 </project>

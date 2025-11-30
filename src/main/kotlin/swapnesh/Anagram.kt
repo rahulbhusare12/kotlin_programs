@@ -15,6 +15,7 @@ fun anagram(str:String, str2:String):Boolean{
 
     var clerstr = str.lowercase().filter { it.isLetter() }.toCharArray().sorted()
     var clestr1 = str2.lowercase().filter { it.isLetter() }.toCharArray().sorted()
+    var c=str2.lowercase().toCharArray().sorted()
 
     return clerstr == clestr1
 }
